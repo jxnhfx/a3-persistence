@@ -15,6 +15,14 @@ app.use( session({
   saveUninitialized: false
 }))
 
+app.get( '/', function( request, response ) { //redirect
+  if( request.session.username ) {
+    response.redirect( '/app.html' )
+  }else{
+    response.redirect( '/login.html' )
+  }
+})
+
 const authRoutes = require( './routes/auth' )
 app.use( '/', authRoutes )
 
