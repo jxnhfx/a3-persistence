@@ -12,10 +12,4 @@ Weekly HW Calculator is a two-tier web app that extends my A2 to-do list into a 
 
 **CSS modifications:** I did not override or add custom CSS on top of Bootstrap's default styling — per the assignment's own guidance, I relied on Bootstrap's built-in design decisions rather than second-guessing them with my own stylesheet.
 
-## Technical Achievements
-
-None
-
-## Design/Evaluation Achievements
-
-None
+## A4 COMPLETED --> IMPLEMENTED WITH REACT
